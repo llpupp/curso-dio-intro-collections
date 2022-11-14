@@ -47,8 +47,7 @@ public class ExercicioProposto02 {
                 count ++;
             }
         }
-
-        switch(count) {
+            switch(count) {
             case 2:
                 System.out.println(">> SUSPEITA <<"); break;
             case 3:
