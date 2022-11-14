@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc7b1d1c-e32a-49e7-9b7e-ba2d2b5ab7bf" name="Changes" comment="List">
-      <change afterPath="$PROJECT_DIR$/src/br/com/dio/collection/list/ExemploOrdenacaoList.java" afterDir="false" />
+    <list default="true" id="fc7b1d1c-e32a-49e7-9b7e-ba2d2b5ab7bf" name="Changes" comment="OrdenaçãoList">
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/collection/list/Exercicio01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/collection/list/Exercicio02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/collection/set/ExemploOrdenacaoSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/collection/set/ExemploSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -30,12 +36,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668454411704</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="OrdenaçãoList">
+      <created>1668458696979</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668458696979</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inclusão Readme" />
     <MESSAGE value="List" />
-    <option name="LAST_COMMIT_MESSAGE" value="List" />
+    <MESSAGE value="OrdenaçãoList" />
+    <option name="LAST_COMMIT_MESSAGE" value="OrdenaçãoList" />
   </component>
 </project>
