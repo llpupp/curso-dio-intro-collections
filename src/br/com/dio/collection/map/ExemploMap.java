@@ -11,7 +11,7 @@ public class ExemploMap {
  modelo = mobi - consumo = 16,1 km/l
  modelo = hb20 - consumo = 14,5 km/l
  modelo = kwid - consumo = 15,6 km/l
- */
+  */
 
 //        Map carrosPopulares2020 = new HashMap(); //antes do java 5
 //        Map<String, Double> carrosPopulares = new HashMap<>(); //Generics(jdk 5) - Diamont Operator(jdk 7)
@@ -105,6 +105,7 @@ public class ExemploMap {
         carrosPopulares.clear();
 
         System.out.println("Confira se o dicionário está vazio: " + carrosPopulares.isEmpty()); //retorna um boolean true
+
     }
 }
 

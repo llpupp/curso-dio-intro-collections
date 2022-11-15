@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc7b1d1c-e32a-49e7-9b7e-ba2d2b5ab7bf" name="Changes" comment="ExerProp01">
-      <change afterPath="$PROJECT_DIR$/src/br/com/dio/collection/map/ExercicioProposto02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fc7b1d1c-e32a-49e7-9b7e-ba2d2b5ab7bf" name="Changes" comment="ExemploOrdenacaoMap" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,7 +247,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668538957503</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ExerProp02">
+      <created>1668539628185</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668539628185</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ExerProp02">
+      <created>1668539636793</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1668539636793</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ExemploOrdenacaoMap">
+      <created>1668539781488</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1668539781488</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,8 +293,9 @@
     <MESSAGE value="ExemploSet" />
     <MESSAGE value="ExemploOrdenacaoSet" />
     <MESSAGE value="ExemploMap" />
-    <MESSAGE value="ExemploOrdenacaoMap" />
     <MESSAGE value="ExerProp01" />
-    <option name="LAST_COMMIT_MESSAGE" value="ExerProp01" />
+    <MESSAGE value="ExerProp02" />
+    <MESSAGE value="ExemploOrdenacaoMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="ExemploOrdenacaoMap" />
   </component>
 </project>
