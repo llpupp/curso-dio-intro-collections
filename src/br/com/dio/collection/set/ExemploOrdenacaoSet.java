@@ -82,7 +82,7 @@ class Serie implements Comparable<Serie>{
                 '}';
     }
 
-    @Override
+    @Override //importante sobrescrever (override) métodos equals e HashCode qdo ta usando implementações que no nome tem a palavra Hash
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;

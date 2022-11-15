@@ -18,15 +18,16 @@ public class ExemploSet {
         Set<Double> notas = new HashSet<>(Arrays.asList(7d, 8.5, 9.3, 5d, 7d, 0d, 3.6));
         System.out.println(notas.toString());
 
-//        System.out.println("Exiba a posição da nota 5.0: ");
+//        System.out.println("Exiba a posição da nota 5.0: ");//qdo trabalha com Set, não há como fazer pesquisa por posição
+//          fica de forma aleatória, inclusive pq não tem o Get
 
-//        System.out.println("Adicione na lista a nota 8.0 na posição 4: ");
+//        System.out.println("Adicione na lista a nota 8.0 na posição 4: ");// não há como definir ou pesquisar posição dentro de um Set
 
-//        System.out.println("Substitua a nota 5.0 pela nota 6.0: ");
+//        System.out.println("Substitua a nota 5.0 pela nota 6.0: ");// não há como fazer substituição no Set ( somente no List)
 
         System.out.println("Confira se a nota 5.0 está no conjunto: " + notas.contains(5d));
 
-//        System.out.println("Exiba a terceira nota adicionada: ");
+//        System.out.println("Exiba a terceira nota adicionada: ");//não há como fazer pq não tem o método Get
 
         System.out.println("Exiba a menor nota: " + Collections.min(notas));
 
@@ -46,7 +47,7 @@ public class ExemploSet {
         notas.remove(0d);
         System.out.println(notas);
 
-//        System.out.println("Remova a nota da posição 0");
+//        System.out.println("Remova a nota da posição 0");//não há como saber a posição zero pq não tem método Get no Set
 
         System.out.println("Remova as notas menores que 7 e exiba a lista: ");
         Iterator<Double> iterator1 = notas.iterator();
@@ -56,8 +57,9 @@ public class ExemploSet {
         }
         System.out.println(notas);
 
-        System.out.println("Exiba todas as notas na ordem em que foram informados: ");
+        System.out.println("Exiba todas as notas na ordem em que foram informados: "); // para exibir na ordem, tem que usar o LinkedHashSet e não o HashSet
         Set<Double> notas2 = new LinkedHashSet<>();
+        //O Set não adiciona notas duplicadas, mesmo como o método LinkedHashSet, portanto será incluído só um 7.0
         notas2.add(7d);
         notas2.add(8.5);
         notas2.add(9.3);
@@ -67,7 +69,7 @@ public class ExemploSet {
         notas2.add(3.6);
         System.out.println(notas2);
 
-        System.out.println("Exiba todas as notas na ordem crescente: ");
+        System.out.println("Exiba todas as notas na ordem crescente: ");// TreeSet organiza de acordo à ordem natural dos elementos
         Set<Double> notas3 = new TreeSet<>(notas2);
         System.out.println(notas3);
 
