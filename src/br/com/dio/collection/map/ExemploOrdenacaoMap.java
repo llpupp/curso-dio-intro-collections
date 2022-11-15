@@ -1,4 +1,4 @@
-package br.com.dio.collection.Map;
+package br.com.dio.collection.map;
 
 /*Dadas as seguintes informações sobre meus livros favoritos e seus autores,
 crie um dicionário e ordene este dicionário:
@@ -31,13 +31,13 @@ public class ExemploOrdenacaoMap {
         for (Map.Entry<String, Livro> livro : meusLivros1.entrySet())
             System.out.println(livro.getKey() + " - " + livro.getValue().getNome());
 
-        System.out.println("--\tOrdem alfabética autores\t--");
+        System.out.println("--\tOrdem alfabética autores\t--");// De acordo com as chaves
         Map<String, Livro> meusLivros2 = new TreeMap<>(meusLivros1);
         for (Map.Entry<String, Livro> livro : meusLivros2.entrySet())
             System.out.println(livro.getKey() + " - " + livro.getValue().getNome());
 
-        System.out.println("--\tOrdem alfabética nomes dos livros\t--");
-
+        System.out.println("--\tOrdem alfabética nomes dos livros\t--");// o nome dos livros está no valor e não nas chaves
+        // para trabalhar com valor usar TreeSet e passar o comparator
         Set<Map.Entry<String, Livro>> meusLivros3 = new TreeSet<>(new ComparatorNome());
         meusLivros3.addAll(meusLivros.entrySet());
         for (Map.Entry<String, Livro> livro : meusLivros3)
